@@ -1,0 +1,52 @@
+/* Dense CSS for Quick Reference Sheet Table for markdown-pdf */
+body {
+  background-color: #fff;
+  font-family: "Segoe UI", sans-serif;
+  margin: 10px;
+  color: #333;
+}
+
+/* Apply to all tables */
+table {
+  width: 100%;
+  margin: 0px 0px;
+  border-collapse: collapse;
+  vertical-align: middle; /* This vertically centers cell content */
+}
+
+/* Table header and data cells */
+th,
+td {
+  padding: 0px 0px;
+  border: 1px solid #999; /* Thinner borders */
+  text-align: center;
+}
+
+/* Header cell styling */
+th {
+  background-color: #005f99;
+  color: #fff;
+  font-size: 0.3rem; /* Smaller font */
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Data cell styling */
+td {
+  font-size: 0.25rem; /* Reduced font size */
+  color: #333;
+  text-align: center;
+}
+
+/* Inline code styling */
+code {
+  display: inline-block; /* Allows vertical-align to work on the code element */
+  vertical-align: middle;
+  background-color: #ccc;
+  padding: 1px 1px;
+  border-radius: 1px;
+  font-family: "Consolas", monospace;
+  font-size: 0.6rem;
+  font-weight: 100;
+  color: #0000af;
+}
