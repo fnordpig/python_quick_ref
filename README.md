@@ -3,7 +3,7 @@ A quick and dirty script to generate a PDF from a markdown file, specifically fo
 ## Usage
 
 ```bash
-python3 style_quick_ref.py markdown_file.md --css quick_ref.css --output quick_ref.pdf
+python3 style_quick_ref.py "Python Quick Ref.md" --css quick_ref.css --output quick_ref.pdf
 ```
 
 ## Installation
