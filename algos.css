@@ -35,18 +35,16 @@ th {
 
 /* Data cell styling */
 td {
-  font-size: 0.3rem;
+  font-size: 0.4rem;
   color: #333;
 }
 
 /* Inline code styling */
 td code {
   white-space: normal;
-  display: inline-block;
   background-color: #bcdeff !important;
   padding: 0px;
   border-radius: 0px;
   font-family: "Consolas", monospace;
-  font-size: 0.65rem;
   color: #12345a !important;
 }
